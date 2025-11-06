@@ -1,0 +1,14 @@
+# create/update .gitignore (one-liner)
+@'
+node_modules
+.env
+.DS_Store
+npm-debug.log
+.vscode
+'@ > .gitignore
+
+# optional README
+@'
+# apis-in-action
+Project description...
+'@ > README.md

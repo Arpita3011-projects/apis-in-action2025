@@ -1,0 +1,11 @@
+node_modules/
+.env
+.DS_Store
+npm-debug.log
+.vscode/
+
+# Ignore nested repo/folder that should not be committed
+apis-in-action2025/
+
+# If you have a file named literally "git ignore", ignore it
+"git ignore"
